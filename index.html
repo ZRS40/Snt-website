@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+	<title>Mon Film Préféré</title>
+</head>
+
+<body>
+	<header>
+		<h1 class="top">Deadpool & Wolverine</h1>
+		<nav>
+			<button onclick="document.getElementById('infos').scrollIntoView({behavior: 'smooth'});">Infos</button>
+			<button onclick="document.getElementById('resume').scrollIntoView({behavior: 'smooth'});">Résumé</button>
+			<button onclick="document.getElementById('bande-annonce').scrollIntoView({behavior: 'smooth'});">Bande-Annonce</button>
+			<button onclick="document.getElementById('sources').scrollIntoView({behavior: 'smooth'});">Sources</button>
+		</nav>
+	</header>
+		<hr>
+		<h1 class="img">Deadpool & Wolverine</h1>
+		<img class="affiche" src="media/01102932823465-web-tete.webp"> <!--affiche du film (à insérer durant l'activité) -->
+		<p id="name">Ce document a été réalisé par Paul Baron</p>
+		<br/>
+		
+		<div class="info-g">
+			<h2 id="infos">Informations générales</h2>
+
+			<div class="infos">
+				<h2><strong>Date de sortie : <em>25 juillet 2024</em><br /></h2></strong>
+				<h2><strong>Réalisateur : <em>Shawn Levy</em><br /></h2></strong>
+				<h2><strong>Acteurs Principaux :<em> Ryan Reynolds (Deadpool), Hugh Jackman (Wolverine)</em><br /></h2></strong>
+				<h2><strong>Genre :<em> Action/Comédie</em></h2></strong>
+			</div>	
+		</div>
+		
+		<h2 id="resume">Résumé</h2>
+		<div class="resume-g">
+			<p id="resume">Après avoir échoué à rejoindre l’équipe des Avengers, Wade Wilson (alias Deadpool) passe d’un petit boulot à un autre sans vraiment trouver sa voie. Jusqu’au jour où un haut gradé du Tribunal des Variations Anachroniques lui propose une mission digne de lui… à condition de voir son monde et tous ceux qu’il aime être anéantis. Refusant catégoriquement, Wade endosse de nouveau le costume de Deadpool et tente de convaincre Wolverine de l’aider à sauver son univers ...</p>
+		</div>
+
+		<div class="bande-annonce-g">
+			<h2 id="bande-annonce">Bande-Annonce du Film</h2>
+			<iframe width="1128" height="635" src="https://www.youtube.com/embed/2t9-VpzzNmY"></iframe>
+		</div>
+		
+		<footer>
+			<h2 id="sources">Sources des informations et médias</h2>
+			<ul>
+				<li><a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=251633.html">Allociné (Résumé)</a></li>
+				<li><a href="https://www.youtube.com/embed/2t9-VpzzNmY">Youtube (Bande-Annonce)</a></li>
+				<li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fr.wikipedia.org/wiki/Deadpool_et_Wolverine&ved=2ahUKEwjg5eTFn7WNAxX4RaQEHQ5qAMEQFnoECBYQAQ&usg=AOvVaw2cCRGJMsvtX5oZYL9wzwXm">Wikipedia (Différentes informations)</a></li>
+			</ul>
+			<p>Paul Baron 2025 &copy; Tous droits réservés</p>
+		</footer>
+
+</body>
+</html>
